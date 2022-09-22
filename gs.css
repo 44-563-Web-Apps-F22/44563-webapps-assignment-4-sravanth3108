@@ -29,6 +29,12 @@
     font-size: small;
 
 }
+.name:hover
+{
+   text-shadow: 5px 5px blue;
+   border: 5px;
+
+}
 .direction:hover
 {
     color :aqua;
