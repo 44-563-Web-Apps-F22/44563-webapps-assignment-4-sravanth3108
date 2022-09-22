@@ -26,12 +26,12 @@
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
-    font-size: 60px;
+    font-size: larger;
 
 }
 .name:hover
 {
-   text-shadow: 10px 10px 10px green;
+   text-shadow: 3px 3px 3px green;
    border: 20px;
 
 }
