@@ -1,5 +1,6 @@
 .speech
 {
+    font-style:inherit;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     color: black;
@@ -7,6 +8,7 @@
 }
 .song
 {
+    font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     color:black;
@@ -22,7 +24,7 @@
 }
 .name
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
     font-size: small;
 
@@ -44,6 +46,33 @@
 .chorus
 {
     color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     font-size: large;
 }
+.description
+{
+    color:blueviolet;
+}
+#table
+{
+    padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#table th, #table td
+{
+   border: 1px  solid black;
+   padding: 5px;
+}
+#table tr:nth-child(odd)
+{
+  background-color:aqua;
+}
+#table th {
+    
+    text-align: left;
+    background-color:azure;
+    color: black;
+
+    
+  }
